@@ -1,5 +1,6 @@
 package com.trncic.dottedbarsample;
 
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,6 +18,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bar = (DottedProgressBar) findViewById(R.id.progress);
+        Runnable run = new Runnable(){
+
+            @Override
+            public void run() {
+                bar.startProgress();
+            }
+        };
+        Handler han = new Handler();
+        han.postAtTime(run, 100);
     }
 
     @Override
