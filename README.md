@@ -1,8 +1,7 @@
-dotted-progress-bar
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-dotted--progress--bar-green.svg?style=flat)](https://android-arsenal.com/details/1/2012)
+Dotted Progress Bar  [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-dotted--progress--bar-green.svg?style=flat)](https://android-arsenal.com/details/1/2012)
 ===============
 
-Dotted style, progress bar.
+Dotted progress bar. Use custom drawable or color to configure dots.
 
 ![dotted-progress-bar](https://raw.github.com/igortrncic/dotted-progress-bar/master/progress.gif)
 
